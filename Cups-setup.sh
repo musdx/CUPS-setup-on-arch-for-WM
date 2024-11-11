@@ -48,7 +48,6 @@ case $yn in
 	[yY] ) echo ok, we will proceed;
 		break;;
 	[nN] ) echo exiting...;
-		echo "Your printer should be good now"
 		exit;;
 	* ) echo invalid response;;
 esac
